@@ -61,6 +61,7 @@ const Navbar = () => {
                             <NavLink to="/service" className={({isActive}) => `${isActive ? 'text-yellow-500' : 'text-gray-300'} hover:bg-gray-700 hover:text-yellow-500 px-3 py-2 rounded-md text-sm font-medium`}>Service</NavLink>
                             <NavLink to="/contact" className={({isActive}) => `${isActive ? 'text-yellow-500' : 'text-gray-300'} hover:bg-gray-700 hover:text-yellow-500 px-3 py-2 rounded-md text-sm font-medium`}>Contact</NavLink>
                             <NavLink to="/contact" className={({isActive}) => `${isActive ? 'text-yellow-500' : 'text-gray-300'} hover:bg-gray-700 hover:text-yellow-500 px-3 py-2 rounded-md text-sm font-medium`}>Login</NavLink>
+                            <NavLink to="/contact" className={({isActive}) => `${isActive ? 'text-yellow-500' : 'text-gray-300'} hover:bg-gray-700 hover:text-yellow-500 px-3 py-2 rounded-md text-sm font-medium`}>Projects</NavLink>
 
                         </div>
                 </div>
