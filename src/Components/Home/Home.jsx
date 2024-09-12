@@ -21,16 +21,22 @@ function Home() {
                             />
                             {/* <span className='text-yellow-500 font-bold'>Developer</span> */}
                         </div>
-                        <p className='leading-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt minus voluptatum voluptate incidunt odio, omnis quo inventore provident consequuntur ullam alias quis facilis modi totam officia ratione similique suscipit dolor neque quasi amet. Numquam facere maiores non quae laudantium. Eaque.</p>
+                        <p className='leading-8'>As a dedicated Front Developer, I bring a blend of artistic
+                            vision and technical expertise to create stunning and
+                            functional online experiences. With a keen eye on design
+                            trends and a commitment to user-centric solutions, I create
+                            websites that not only look visually appealing but also
+                            provide seamless navigation and optimal user experience.
+                        </p>
                         <br />
                         <div className='flex justify-between'>
                             <div className='space-y-2 text-center'>
                                 <h2>Available On</h2>
                                 <div className='flex space-x-2 text-3xl rounded-full'>
-                                    <IoLogoGithub />
-                                    <IoLogoLinkedin />
-                                    <IoLogoFacebook />
-                                    <IoLogoWhatsapp />
+                                    <a href="https://github.com/anshulshakya0605" target='_blank'><IoLogoGithub /></a>
+                                    <a href="https://www.linkedin.com/in/anshul-kumar-b0536b250/" target='_blank'><IoLogoLinkedin /></a>
+                                    <a href=""><IoLogoFacebook /></a>
+                                    <a href="https://wa.me/917300880255/?text=Hii" target='_blank'><IoLogoWhatsapp /></a>
                                 </div>
                             </div>
                             <div className='space-y-2 text-center'>
