@@ -51,7 +51,7 @@ function Home() {
                         </div>
                     </div>
                     <div className='md:w-1/2 mt-12 md:mt-10 space-y-2 md:ps-8 order-1'>
-                        <img src={logo} className='bg-gray-300 md:w-[450px] md:h-[450px] rounded-full md:ml-24' alt="" />
+                        <img src={logo} className='bg-gray-300 w-72 h-72 ml-7 md:w-[450px] md:h-[450px] rounded-full md:ml-24' alt="" />
                     </div>
                 </div>
                 <div>
