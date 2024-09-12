@@ -3,6 +3,7 @@ import logo from '../../assets/logo.png'
 import { IoLogoCss3, IoLogoFacebook, IoLogoGithub, IoLogoHtml5, IoLogoJavascript, IoLogoLinkedin, IoLogoWhatsapp } from 'react-icons/io'
 import { IoLogoReact } from 'react-icons/io5'
 import { ReactTyped, Typed } from 'react-typed'
+import About from '../About/About'
 function Home() {
     return (
         <>
@@ -55,10 +56,9 @@ function Home() {
                     </div>
                 </div>
                 <div>
-
                 </div>
-
             </div>
+            <About />
         </>
     )
 }
