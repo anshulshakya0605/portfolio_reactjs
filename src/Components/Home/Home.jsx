@@ -5,6 +5,7 @@ import { IoLogoReact } from 'react-icons/io5'
 import { ReactTyped, Typed } from 'react-typed'
 import About from '../About/About'
 import Contact from '../Contact/Contact'
+import Skill from '../Skills/Skill'
 function Home() {
     return (
         <>
@@ -60,6 +61,7 @@ function Home() {
                 </div>
             </div>
             <About />
+            <Skill/>
             <Contact/>
         </>
     )

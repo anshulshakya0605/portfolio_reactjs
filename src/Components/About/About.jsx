@@ -7,8 +7,8 @@ function About() {
         <>
             <div className='max-w-screen-2xl container px-4 md:px-20 my-10'>
                 <div className='space-y-6'>
-                    <h1 className='text-3xl font-bold text-yellow-500 mt-7 text-center hover:scale-100 duration-300 hover:text-white'>!! About Us !!</h1>
-                    <p className='text-sm md:px-5'>Welcome to Anshul Kumar Portfolio!
+                    <h1 className='text-3xl font-bold text-yellow-400 mt-7 text-center hover:scale-100 duration-300 hover:text-white'> About Us </h1>
+                    <p className='text-sm md:px-10'>Welcome to Anshul Kumar Portfolio!
                         As a passionate front-end developer, I specialize in creating dynamic, responsive, and user-friendly web applications. With a deep understanding of HTML, CSS, JavaScript, and modern frameworks like React, I bring ideas to life through clean and efficient code.</p>
                 </div>
 
