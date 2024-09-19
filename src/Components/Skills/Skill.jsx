@@ -10,16 +10,16 @@ import photoshopLogo from '../../assets/photoshopLogo.png'
 function Skill() {
     return (
         <>
-            <div className="container">
+            <div className="container mt-16">
                 <h1 className='text-yellow-400 text-3xl font-bold hover:text-white text-center duration-300'>My Skills</h1>
-                <div class="text-white py-8">
+                <div className="text-white py-8">
                     <div className="text-center mb-8">
                         <p>We put your ideas and thus your wishes in the form of a unique web project that inspires you and your customers.</p>
                     </div>
 
-                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-4 sm:px-6 lg:px-10">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-4 sm:px-6 lg:px-10">
 
-                        <div class="text-center">
+                        <div className="text-center">
                             <div className="bg-gray-800 p-6 rounded-lg">
                                 <img src={html} alt="Html" className="mx-auto bg-white rounded-full mb-4 w-40 h-40 hover:scale-110 duration-200 cursor-pointer" />
                                 <p className="text-3xl font-bold">92%</p>

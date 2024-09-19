@@ -5,19 +5,17 @@ import { ReactTyped } from 'react-typed'
 function About() {
     return (
         <>
-            <div className='max-w-screen-2xl container px-4 md:px-20 my-10'>
+            <div className='max-w-screen-2xl container px-4 md:px-20 mt-10'>
                 <div className='space-y-6'>
-                    <h1 className='text-3xl font-bold text-yellow-400 mt-7 text-center hover:scale-100 duration-300 hover:text-white'> About Us </h1>
-                    <p className='text-sm md:px-10'>Welcome to Anshul Kumar Portfolio!
-                        As a passionate front-end developer, I specialize in creating dynamic, responsive, and user-friendly web applications. With a deep understanding of HTML, CSS, JavaScript, and modern frameworks like React, I bring ideas to life through clean and efficient code.</p>
+                    <h1 className='text-3xl font-bold text-yellow-400 mt-20 text-center hover:scale-100 duration-300 hover:text-white'> About Me </h1>
                 </div>
 
-                <div className='flex flex-col md:flex-row text-center'>
-                    <div className='md:w-1/3'>
-                        <img className='rounded-full mt-6 border-4 shadow-lg' src={logo1} alt="anshul image" />
+                <div className='flex flex-col md:flex-row justify-center items-center p-4 min-h-screen'>
+                    <div className='md:w-1/3 w-full'>
+                        <img className='rounded mt-6 border-4 shadow-lg' src={logo1} alt="anshul image" />
                     </div>
-                    <div className='md:w-8/12'>
-                        <h1 className='text-4xl text-white mt-8'>ANSHUL <span> <ReactTyped
+                    <div className='md:w-2/3 w-full mt-6 md:mt-0 md:ml-10'>
+                        <h1 className='text-4xl text-white mt-5 md:ml-10'>ANSHUL <span> <ReactTyped
                             className='text-yellow-400'
                             strings={['SHAKYA', 'KUMAR']}
                             typeSpeed={70}
@@ -25,7 +23,46 @@ function About() {
                             loop={true}
                         /> </span></h1>
 
-                        <p className='mt-1 text-lg'>Front End Developer</p>
+                        <h2 className='mt-2 text-xl md:text-2xl text-yellow-400 md:ml-10'>Front End Developer</h2>
+                        <div className='mt-6'>
+                        <p className='text-sm md:px-10 text-justify leading-6'>Welcome to Anshul Kumar Portfolio!
+                        As a passionate front-end developer, I specialize in creating dynamic, responsive, and user-friendly web applications. With a deep understanding of HTML, CSS, JavaScript, and modern frameworks like React, I bring ideas to life through clean and efficient code.</p>
+                        </div>
+
+                        <ul className="mt-6 space-y-4 md:ml-10">
+                            <div className='flex'>
+                            <div className='w-1/3 space-y-2'>
+                                <li>Education</li>
+                                <li>Birthday</li>
+                                <li>Contact</li>
+                                <li>Email Id</li>
+                                <li>Address</li>
+                                <li>Language</li>
+                            </div>
+                            <div className='w-2/3 space-y-2 text-gray-300'>
+                                <li>: MCA Pursuing</li>
+                                <li>: 06 May 2000</li>
+                                <li>: +91-7300880255</li>
+                                <li>: anshulshakya0605</li>
+                                <li>: Etawah UP (206001)</li>
+                                <li>: Hindi / English</li>
+                            </div>
+                            </div>
+{/*                             
+                            <li><span className='text-lg font-bold mr-2'>Education</span><span>:</span><span className='text-lg ms-4'>MCA Pursuing</span></li>
+
+                            <li><span className='text-lg font-bold mr-2'>Birthday</span><span>:</span><span className='text-lg ms-4'>06 May 2000</span></li>
+
+                            <li><span className='text-lg font-bold mr-2'>Contact</span><span>:</span><span className='text-lg ms-4'>+91-7300880255</span></li>
+
+                            <li><span className='text-lg font-bold mr-2'>Email Id</span><span>:</span><span className='text-lg ms-4'>anshulshakya0605@gmail.com</span></li>
+
+                            <li><span className='text-lg font-bold mr-2'>From</span><span>:</span><span className='text-lg ms-4'>Etawah UP (206001)</span></li> */}
+                            
+                        </ul>
+                        
+                    </div>
+                    <div>
                     </div>
                 </div>
             </div>
