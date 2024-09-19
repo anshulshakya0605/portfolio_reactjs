@@ -12,7 +12,7 @@ function About() {
 
                 <div className='flex flex-col md:flex-row justify-center items-center p-4 min-h-screen'>
                     <div className='md:w-1/3 w-full'>
-                        <img className='rounded mt-6 border-4 shadow-lg' src={logo1} alt="anshul image" />
+                        <img className='rounded-3xl mt-6 shadow-lg' src={logo1} alt="anshul image" />
                     </div>
                     <div className='md:w-2/3 w-full mt-6 md:mt-0 md:ml-10'>
                         <h1 className='text-4xl text-white mt-5 md:ml-10'>ANSHUL <span> <ReactTyped
@@ -48,19 +48,7 @@ function About() {
                                 <li>: Hindi / English</li>
                             </div>
                             </div>
-{/*                             
-                            <li><span className='text-lg font-bold mr-2'>Education</span><span>:</span><span className='text-lg ms-4'>MCA Pursuing</span></li>
-
-                            <li><span className='text-lg font-bold mr-2'>Birthday</span><span>:</span><span className='text-lg ms-4'>06 May 2000</span></li>
-
-                            <li><span className='text-lg font-bold mr-2'>Contact</span><span>:</span><span className='text-lg ms-4'>+91-7300880255</span></li>
-
-                            <li><span className='text-lg font-bold mr-2'>Email Id</span><span>:</span><span className='text-lg ms-4'>anshulshakya0605@gmail.com</span></li>
-
-                            <li><span className='text-lg font-bold mr-2'>From</span><span>:</span><span className='text-lg ms-4'>Etawah UP (206001)</span></li> */}
-                            
                         </ul>
-                        
                     </div>
                     <div>
                     </div>
@@ -70,4 +58,4 @@ function About() {
     )
 }
 
-export default About
+export default About;

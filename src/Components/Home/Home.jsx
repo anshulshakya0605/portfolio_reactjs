@@ -6,6 +6,7 @@ import { ReactTyped, Typed } from 'react-typed'
 import About from '../About/About'
 import Contact from '../Contact/Contact'
 import Skill from '../Skills/Skill'
+import Testimonial from '../Testimonials/Testimonial'
 function Home() {
     return (
         <>
@@ -62,6 +63,7 @@ function Home() {
             </div>
             <About />
             <Skill/>
+            <Testimonial/>
             <Contact/>
         </>
     )
