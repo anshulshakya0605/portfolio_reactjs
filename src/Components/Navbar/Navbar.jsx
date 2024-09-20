@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom'; 
 import logo from '../../assets/logo.png'
-import Home from '../Home/Home';
+
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
         <>
-        <nav className="bg-gray-800">
+        <nav className="fixed top-0 left-0 w-full bg-gray-800 shadow-md z-50">
             <div className="max-w-7xl mx-auto shadow-lg px-2 sm:px-6 lg:px-8">
                 <div className="relative flex items-center justify-between h-16">
                     {/* Logo */}
@@ -58,10 +58,9 @@ const Navbar = () => {
                     <div className="hidden sm:flex sm:items-center sm:space-x-4">
                             <NavLink to="/" className={({isActive}) => `${isActive ? 'text-yellow-500' : 'text-gray-300'} hover:bg-gray-700 hover:text-yellow-500 px-3 py-2 rounded-md text-sm font-medium`}>Home</NavLink>
                             <NavLink to="/about" className={({isActive}) => `${isActive ? 'text-yellow-500' : 'text-gray-300'} hover:bg-gray-700 hover:text-yellow-500 px-3 py-2 rounded-md text-sm font-medium`}>About</NavLink>
-                            <NavLink to="/service" className={({isActive}) => `${isActive ? 'text-yellow-500' : 'text-gray-300'} hover:bg-gray-700 hover:text-yellow-500 px-3 py-2 rounded-md text-sm font-medium`}>Service</NavLink>
+                            <NavLink to="/skills" className={({isActive}) => `${isActive ? 'text-yellow-500' : 'text-gray-300'} hover:bg-gray-700 hover:text-yellow-500 px-3 py-2 rounded-md text-sm font-medium`}>Skills</NavLink>
                             <NavLink to="/contact" className={({isActive}) => `${isActive ? 'text-yellow-500' : 'text-gray-300'} hover:bg-gray-700 hover:text-yellow-500 px-3 py-2 rounded-md text-sm font-medium`}>Contact</NavLink>
-                            <NavLink to="/contact" className={({isActive}) => `${isActive ? 'text-yellow-500' : 'text-gray-300'} hover:bg-gray-700 hover:text-yellow-500 px-3 py-2 rounded-md text-sm font-medium`}>Login</NavLink>
-
+                            <a href="https://drive.google.com/file/d/1Ib4MJrcXg1VCq8cLjAKUCMJRP50ctFTX/view?usp=drive_link" download="AnshulKumarResume.pdf" target='_blank' className=" text-gray-300 hover:bg-gray-700 hover:text-yellow-500 px-3 py-2 rounded-md text-sm font-medium">Resume</a>
                         </div>
                 </div>
             </div>
@@ -73,7 +72,7 @@ const Navbar = () => {
                     <NavLink to='/about' className={({isActive}) => `${isActive ? 'text-yellow-500' : 'text-gray-300'} hover:bg-gray-700 hover:text-yellow-500 block px-3 py-2 rounded-md text-base font-medium`}>About</NavLink>
                     <NavLink to='/services' className={({isActive}) => `${isActive ? 'text-yellow-500' : 'text-gray-300'} hover:bg-gray-700 hover:text-yellow-500 block px-3 py-2 rounded-md text-base font-medium`}>Services</NavLink>
                     <NavLink to='/contact' className={({isActive}) => `${isActive ? 'text-yellow-500' : 'text-gray-300'} hover:bg-gray-700 hover:text-yellow-500 block px-3 py-2 rounded-md text-base font-medium`}>Contact</NavLink>
-                    <NavLink to='/login' className={({isActive}) => `${isActive ? 'text-yellow-500' : 'text-gray-300'} hover:bg-gray-700 hover:text-yellow-500 block px-3 py-2 rounded-md text-base font-medium`}>Login</NavLink>
+                    <a href='https://drive.google.com/file/d/1Ib4MJrcXg1VCq8cLjAKUCMJRP50ctFTX/view?usp=drive_link' download="AnshulKumarResume.pdf" target='_blank' className= "text-gray-300 hover:bg-gray-700 hover:text-yellow-500 block px-3 py-2 rounded-md text-base font-medium">Resume</a>
                 </div>
             </div>
         </nav>
