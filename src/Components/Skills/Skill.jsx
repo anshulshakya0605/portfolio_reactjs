@@ -7,6 +7,7 @@ import reactLogo from '../../assets/react.png'
 import reduxLogo from '../../assets/redux.png'
 import tailwindLogo from '../../assets/tailwindLogo.png'
 import photoshopLogo from '../../assets/photoshopLogo.png'
+import javaLogo from '../../assets/java.png'
 function Skill() {
     return (
         <>
@@ -77,10 +78,10 @@ function Skill() {
                         </div>
                         <div className="text-center">
                             <div className="bg-gray-800 p-6 rounded-lg">
-                                <img src={photoshopLogo} alt="Photoshop" className="mx-auto bg-white rounded-full mb-4 w-40 h-40 hover:scale-110 duration-200 cursor-pointer" />
+                                <img src={javaLogo} alt="java" className="mx-auto bg-white rounded-full mb-4 w-40 h-40 hover:scale-110 duration-200 cursor-pointer" />
                                 <p className="text-3xl font-bold">93%</p>
                             </div>
-                            <p className="mt-4 text-2xl text-yellow-400">ADOBE PHOTOSHOP</p>
+                            <p className="mt-4 text-2xl text-yellow-400">Java</p>
                         </div>
 
                     </div>

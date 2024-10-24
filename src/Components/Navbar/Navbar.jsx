@@ -13,8 +13,8 @@ const Navbar = () => {
                     {/* Logo */}
                     <div className="flex flex-shrink-0 space-x-2">
                         <img className="h-14 w-14 rounded-full border-yellow-500 border-2" src={logo} alt="Logo" />
-                        <h1 className='text-3xl font-semibold text-center cursor-pointer'>Anshul Kumar
-                            <p className='text-sm text-yellow-500'>Front End Developer</p>
+                        <h1 className='text-3xl font-semibold text-center cursor-pointer'>Raman Kumar
+                            <p className='text-sm text-yellow-500'>Full Stack Developer</p>
                         </h1>
                     </div>
 

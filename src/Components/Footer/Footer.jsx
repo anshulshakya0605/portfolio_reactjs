@@ -38,7 +38,7 @@ function Footer() {
                             <ul className="text-white font-medium">
                                 <li className="mb-4">
                                     <a
-                                        href="https://github.com/anshulshakya0605/"
+                                        href="https://github.com/ramanshakyars"
                                         className="hover:underline"
                                         target="_blank"
                                         rel="noreferrer"

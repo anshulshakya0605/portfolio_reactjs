@@ -37,7 +37,7 @@ function Home() {
                             <div className='space-y-2 text-center'>
                                 <h2>Available On</h2>
                                 <div className='flex space-x-2 text-3xl rounded-full'>
-                                    <a href="https://github.com/anshulshakya0605" target='_blank'><IoLogoGithub /></a>
+                                    <a href="https://github.com/ramanshakyars" target='_blank'><IoLogoGithub /></a>
                                     <a href="https://www.linkedin.com/in/anshul-kumar-b0536b250/" target='_blank'><IoLogoLinkedin /></a>
                                     <a href=""><IoLogoFacebook /></a>
                                     <a href="https://wa.me/917300880255/?text=Hii" target='_blank'><IoLogoWhatsapp /></a>
