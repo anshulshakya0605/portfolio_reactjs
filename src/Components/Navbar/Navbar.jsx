@@ -60,7 +60,7 @@ const Navbar = () => {
                             <NavLink to="/about" className={({isActive}) => `${isActive ? 'text-yellow-500' : 'text-gray-300'} hover:bg-gray-700 hover:text-yellow-500 px-3 py-2 rounded-md text-sm font-medium`}>About</NavLink>
                             <NavLink to="/skills" className={({isActive}) => `${isActive ? 'text-yellow-500' : 'text-gray-300'} hover:bg-gray-700 hover:text-yellow-500 px-3 py-2 rounded-md text-sm font-medium`}>Skills</NavLink>
                             <NavLink to="/contact" className={({isActive}) => `${isActive ? 'text-yellow-500' : 'text-gray-300'} hover:bg-gray-700 hover:text-yellow-500 px-3 py-2 rounded-md text-sm font-medium`}>Contact</NavLink>
-                            <a href="https://drive.google.com/file/d/1Ib4MJrcXg1VCq8cLjAKUCMJRP50ctFTX/view?usp=drive_link" download="AnshulKumarResume.pdf" target='_blank' className=" text-gray-300 hover:bg-gray-700 hover:text-yellow-500 px-3 py-2 rounded-md text-sm font-medium">Resume</a>
+                            <a href="src\assets\Raman-resume.pdf" download="Raman-resume.pdf" target='_blank' className=" text-gray-300 hover:bg-gray-700 hover:text-yellow-500 px-3 py-2 rounded-md text-sm font-medium">Hire Me</a>
                         </div>
                 </div>
             </div>
@@ -72,7 +72,7 @@ const Navbar = () => {
                     <NavLink to='/about' className={({isActive}) => `${isActive ? 'text-yellow-500' : 'text-gray-300'} hover:bg-gray-700 hover:text-yellow-500 block px-3 py-2 rounded-md text-base font-medium`}>About</NavLink>
                     <NavLink to='/services' className={({isActive}) => `${isActive ? 'text-yellow-500' : 'text-gray-300'} hover:bg-gray-700 hover:text-yellow-500 block px-3 py-2 rounded-md text-base font-medium`}>Services</NavLink>
                     <NavLink to='/contact' className={({isActive}) => `${isActive ? 'text-yellow-500' : 'text-gray-300'} hover:bg-gray-700 hover:text-yellow-500 block px-3 py-2 rounded-md text-base font-medium`}>Contact</NavLink>
-                    <a href='https://drive.google.com/file/d/1Ib4MJrcXg1VCq8cLjAKUCMJRP50ctFTX/view?usp=drive_link' download="AnshulKumarResume.pdf" target='_blank' className= "text-gray-300 hover:bg-gray-700 hover:text-yellow-500 block px-3 py-2 rounded-md text-base font-medium">Resume</a>
+                    <a href="src\assets\Raman-resume.pdf" download="Raman-resume.pdf" target='_blank' className= "text-gray-300 hover:bg-gray-700 hover:text-yellow-500 block px-3 py-2 rounded-md text-base font-medium">Hire Me</a>
                 </div>
             </div>
         </nav>
